@@ -1,0 +1,32 @@
+# Python bytecode, caches, packaging, and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local environments and credentials
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+credentials.*
+secrets.json
+secrets.*
+
+# Local trading history and interrupted journal writes
+trades_journal.csv
+.*.csv.*.tmp
